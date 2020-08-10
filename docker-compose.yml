@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  web:
+    build: .
+    container_name: hello-servlet-docker
+    restart: always
+    ports:
+      - "8080:8080"
